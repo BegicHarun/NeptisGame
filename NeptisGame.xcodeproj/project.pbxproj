@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2CF41922C58401C0059A68A /* NeptisGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CF41912C58401C0059A68A /* NeptisGameApp.swift */; };
+		E2CF41942C58401C0059A68A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CF41932C58401C0059A68A /* ContentView.swift */; };
+		E2CF41962C58401D0059A68A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2CF41952C58401D0059A68A /* Assets.xcassets */; };
+		E2CF41992C58401D0059A68A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2CF41982C58401D0059A68A /* Preview Assets.xcassets */; };
+		E2CF41A32C58401E0059A68A /* NeptisGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CF41A22C58401E0059A68A /* NeptisGameTests.swift */; };
+		E2CF41AD2C58401E0059A68A /* NeptisGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CF41AC2C58401E0059A68A /* NeptisGameUITests.swift */; };
+		E2CF41AF2C58401E0059A68A /* NeptisGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CF41AE2C58401E0059A68A /* NeptisGameUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2CF419F2C58401E0059A68A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2CF41862C58401C0059A68A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2CF418D2C58401C0059A68A;
+			remoteInfo = NeptisGame;
+		};
+		E2CF41A92C58401E0059A68A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2CF41862C58401C0059A68A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2CF418D2C58401C0059A68A;
+			remoteInfo = NeptisGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E2CF418E2C58401C0059A68A /* NeptisGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeptisGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2CF41912C58401C0059A68A /* NeptisGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeptisGameApp.swift; sourceTree = "<group>"; };
+		E2CF41932C58401C0059A68A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E2CF41952C58401D0059A68A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2CF41982C58401D0059A68A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E2CF419E2C58401E0059A68A /* NeptisGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeptisGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2CF41A22C58401E0059A68A /* NeptisGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeptisGameTests.swift; sourceTree = "<group>"; };
+		E2CF41A82C58401E0059A68A /* NeptisGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeptisGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2CF41AC2C58401E0059A68A /* NeptisGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeptisGameUITests.swift; sourceTree = "<group>"; };
+		E2CF41AE2C58401E0059A68A /* NeptisGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeptisGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2CF418B2C58401C0059A68A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2CF419B2C58401E0059A68A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2CF41A52C58401E0059A68A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2CF41852C58401C0059A68A = {
+			isa = PBXGroup;
+			children = (
+				E2CF41902C58401C0059A68A /* NeptisGame */,
+				E2CF41A12C58401E0059A68A /* NeptisGameTests */,
+				E2CF41AB2C58401E0059A68A /* NeptisGameUITests */,
+				E2CF418F2C58401C0059A68A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2CF418F2C58401C0059A68A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2CF418E2C58401C0059A68A /* NeptisGame.app */,
+				E2CF419E2C58401E0059A68A /* NeptisGameTests.xctest */,
+				E2CF41A82C58401E0059A68A /* NeptisGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2CF41902C58401C0059A68A /* NeptisGame */ = {
+			isa = PBXGroup;
+			children = (
+				E2CF41912C58401C0059A68A /* NeptisGameApp.swift */,
+				E2CF41932C58401C0059A68A /* ContentView.swift */,
+				E2CF41952C58401D0059A68A /* Assets.xcassets */,
+				E2CF41972C58401D0059A68A /* Preview Content */,
+			);
+			path = NeptisGame;
+			sourceTree = "<group>";
+		};
+		E2CF41972C58401D0059A68A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E2CF41982C58401D0059A68A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E2CF41A12C58401E0059A68A /* NeptisGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2CF41A22C58401E0059A68A /* NeptisGameTests.swift */,
+			);
+			path = NeptisGameTests;
+			sourceTree = "<group>";
+		};
+		E2CF41AB2C58401E0059A68A /* NeptisGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E2CF41AC2C58401E0059A68A /* NeptisGameUITests.swift */,
+				E2CF41AE2C58401E0059A68A /* NeptisGameUITestsLaunchTests.swift */,
+			);
+			path = NeptisGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2CF418D2C58401C0059A68A /* NeptisGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2CF41B22C58401E0059A68A /* Build configuration list for PBXNativeTarget "NeptisGame" */;
+			buildPhases = (
+				E2CF418A2C58401C0059A68A /* Sources */,
+				E2CF418B2C58401C0059A68A /* Frameworks */,
+				E2CF418C2C58401C0059A68A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeptisGame;
+			productName = NeptisGame;
+			productReference = E2CF418E2C58401C0059A68A /* NeptisGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2CF419D2C58401E0059A68A /* NeptisGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2CF41B52C58401E0059A68A /* Build configuration list for PBXNativeTarget "NeptisGameTests" */;
+			buildPhases = (
+				E2CF419A2C58401E0059A68A /* Sources */,
+				E2CF419B2C58401E0059A68A /* Frameworks */,
+				E2CF419C2C58401E0059A68A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2CF41A02C58401E0059A68A /* PBXTargetDependency */,
+			);
+			name = NeptisGameTests;
+			productName = NeptisGameTests;
+			productReference = E2CF419E2C58401E0059A68A /* NeptisGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E2CF41A72C58401E0059A68A /* NeptisGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2CF41B82C58401E0059A68A /* Build configuration list for PBXNativeTarget "NeptisGameUITests" */;
+			buildPhases = (
+				E2CF41A42C58401E0059A68A /* Sources */,
+				E2CF41A52C58401E0059A68A /* Frameworks */,
+				E2CF41A62C58401E0059A68A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2CF41AA2C58401E0059A68A /* PBXTargetDependency */,
+			);
+			name = NeptisGameUITests;
+			productName = NeptisGameUITests;
+			productReference = E2CF41A82C58401E0059A68A /* NeptisGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2CF41862C58401C0059A68A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					E2CF418D2C58401C0059A68A = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					E2CF419D2C58401E0059A68A = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = E2CF418D2C58401C0059A68A;
+					};
+					E2CF41A72C58401E0059A68A = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = E2CF418D2C58401C0059A68A;
+					};
+				};
+			};
+			buildConfigurationList = E2CF41892C58401C0059A68A /* Build configuration list for PBXProject "NeptisGame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2CF41852C58401C0059A68A;
+			productRefGroup = E2CF418F2C58401C0059A68A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2CF418D2C58401C0059A68A /* NeptisGame */,
+				E2CF419D2C58401E0059A68A /* NeptisGameTests */,
+				E2CF41A72C58401E0059A68A /* NeptisGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2CF418C2C58401C0059A68A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2CF41992C58401D0059A68A /* Preview Assets.xcassets in Resources */,
+				E2CF41962C58401D0059A68A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2CF419C2C58401E0059A68A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2CF41A62C58401E0059A68A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2CF418A2C58401C0059A68A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2CF41942C58401C0059A68A /* ContentView.swift in Sources */,
+				E2CF41922C58401C0059A68A /* NeptisGameApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2CF419A2C58401E0059A68A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2CF41A32C58401E0059A68A /* NeptisGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2CF41A42C58401E0059A68A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2CF41AD2C58401E0059A68A /* NeptisGameUITests.swift in Sources */,
+				E2CF41AF2C58401E0059A68A /* NeptisGameUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2CF41A02C58401E0059A68A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2CF418D2C58401C0059A68A /* NeptisGame */;
+			targetProxy = E2CF419F2C58401E0059A68A /* PBXContainerItemProxy */;
+		};
+		E2CF41AA2C58401E0059A68A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2CF418D2C58401C0059A68A /* NeptisGame */;
+			targetProxy = E2CF41A92C58401E0059A68A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E2CF41B02C58401E0059A68A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2CF41B12C58401E0059A68A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2CF41B32C58401E0059A68A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NeptisGame/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HarunBegic.NeptisGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2CF41B42C58401E0059A68A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NeptisGame/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HarunBegic.NeptisGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E2CF41B62C58401E0059A68A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HarunBegic.NeptisGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeptisGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NeptisGame";
+			};
+			name = Debug;
+		};
+		E2CF41B72C58401E0059A68A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HarunBegic.NeptisGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeptisGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NeptisGame";
+			};
+			name = Release;
+		};
+		E2CF41B92C58401E0059A68A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HarunBegic.NeptisGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NeptisGame;
+			};
+			name = Debug;
+		};
+		E2CF41BA2C58401E0059A68A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HarunBegic.NeptisGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NeptisGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2CF41892C58401C0059A68A /* Build configuration list for PBXProject "NeptisGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2CF41B02C58401E0059A68A /* Debug */,
+				E2CF41B12C58401E0059A68A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2CF41B22C58401E0059A68A /* Build configuration list for PBXNativeTarget "NeptisGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2CF41B32C58401E0059A68A /* Debug */,
+				E2CF41B42C58401E0059A68A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2CF41B52C58401E0059A68A /* Build configuration list for PBXNativeTarget "NeptisGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2CF41B62C58401E0059A68A /* Debug */,
+				E2CF41B72C58401E0059A68A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2CF41B82C58401E0059A68A /* Build configuration list for PBXNativeTarget "NeptisGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2CF41B92C58401E0059A68A /* Debug */,
+				E2CF41BA2C58401E0059A68A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2CF41862C58401C0059A68A /* Project object */;
+}
