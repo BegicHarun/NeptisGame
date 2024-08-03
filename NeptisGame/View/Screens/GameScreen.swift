@@ -19,7 +19,7 @@ struct GameScreen: View {
     @State private var alertMessage = ""
     @State private var gameOver = false
     @State private var navigateToHome = false
-    @StateObject private var viewModel = UserViewModel()
+
     var body: some View {
         VStack {
             Text("You vs \(opponentUsername)")
@@ -45,14 +45,17 @@ struct GameScreen: View {
                 submitGuess()
             }
             .padding()
-            .disabled(guess.isEmpty)
+            .disabled(guess.isEmpty) // Disable button when input field is empty
 
             Spacer()
         }
         .navigationTitle("Game Screen")
         .navigationBarTitleDisplayMode(.inline)
         .navigationBarBackButtonHidden(true)
-        .onAppear(perform: loadRandomRecipe)
+        .onAppear(perform: {
+            resetGame()
+            loadRandomRecipe()
+        })
         .alert(isPresented: $showAlert) {
             Alert(
                 title: Text("Result"),
@@ -68,9 +71,14 @@ struct GameScreen: View {
         }
         .navigationDestination(isPresented: $navigateToHome) {
             HomeScreen(currentUser: loggedInUser)
-                .navigationBarTitle("")
-                .navigationBarHidden(true)
         }
+    }
+
+    private func resetGame() {
+        userScore = 0
+        opponentScore = 0
+        currentAttempt = 1
+        gameOver = false
     }
 
     private func loadRandomRecipe() {
@@ -127,6 +135,7 @@ struct GameScreen: View {
                 print("Attempt: \(currentAttempt), User Score: \(userScore), Opponent Score: \(opponentScore)")
 
                 if currentAttempt >= 10 {
+                    gameOver = true
                     showGameResult()
                 }
             }
