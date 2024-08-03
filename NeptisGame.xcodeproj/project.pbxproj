@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E26D00082C5A44A300AE0E4D /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26D00072C5A44A300AE0E4D /* UserViewModel.swift */; };
+		E26D000A2C5A735600AE0E4D /* GameScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26D00092C5A735600AE0E4D /* GameScreen.swift */; };
+		E26D000C2C5A821B00AE0E4D /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26D000B2C5A821B00AE0E4D /* GameController.swift */; };
 		E2CF41922C58401C0059A68A /* NeptisGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CF41912C58401C0059A68A /* NeptisGameApp.swift */; };
 		E2CF41942C58401C0059A68A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CF41932C58401C0059A68A /* ContentView.swift */; };
 		E2CF41962C58401D0059A68A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2CF41952C58401D0059A68A /* Assets.xcassets */; };
@@ -14,6 +17,15 @@
 		E2CF41A32C58401E0059A68A /* NeptisGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CF41A22C58401E0059A68A /* NeptisGameTests.swift */; };
 		E2CF41AD2C58401E0059A68A /* NeptisGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CF41AC2C58401E0059A68A /* NeptisGameUITests.swift */; };
 		E2CF41AF2C58401E0059A68A /* NeptisGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CF41AE2C58401E0059A68A /* NeptisGameUITestsLaunchTests.swift */; };
+		E2F7D3A42C58F5CF00D5177D /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F7D3A32C58F5CF00D5177D /* InputView.swift */; };
+		E2F7D3A62C58F6AD00D5177D /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F7D3A52C58F6AD00D5177D /* LoginScreen.swift */; };
+		E2F7D3A82C58F99A00D5177D /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F7D3A72C58F99A00D5177D /* ButtonView.swift */; };
+		E2F7D3AB2C58FF6D00D5177D /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F7D3AA2C58FF6D00D5177D /* RegisterScreen.swift */; };
+		E2F7D3AD2C59042A00D5177D /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F7D3AC2C59042A00D5177D /* AuthService.swift */; };
+		E2F7D3AF2C59047D00D5177D /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F7D3AE2C59047D00D5177D /* HomeScreen.swift */; };
+		E2F7D3B22C59050A00D5177D /* NavigationLinkExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F7D3B12C59050A00D5177D /* NavigationLinkExtension.swift */; };
+		E2F7D3B42C59182600D5177D /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F7D3B32C59182600D5177D /* UserModel.swift */; };
+		E2F7D3B62C5918BF00D5177D /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F7D3B52C5918BE00D5177D /* UserService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E26D00072C5A44A300AE0E4D /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		E26D00092C5A735600AE0E4D /* GameScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScreen.swift; sourceTree = "<group>"; };
+		E26D000B2C5A821B00AE0E4D /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
 		E2CF418E2C58401C0059A68A /* NeptisGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeptisGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2CF41912C58401C0059A68A /* NeptisGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeptisGameApp.swift; sourceTree = "<group>"; };
 		E2CF41932C58401C0059A68A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +59,15 @@
 		E2CF41A82C58401E0059A68A /* NeptisGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeptisGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2CF41AC2C58401E0059A68A /* NeptisGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeptisGameUITests.swift; sourceTree = "<group>"; };
 		E2CF41AE2C58401E0059A68A /* NeptisGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeptisGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E2F7D3A32C58F5CF00D5177D /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		E2F7D3A52C58F6AD00D5177D /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		E2F7D3A72C58F99A00D5177D /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		E2F7D3AA2C58FF6D00D5177D /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
+		E2F7D3AC2C59042A00D5177D /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		E2F7D3AE2C59047D00D5177D /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		E2F7D3B12C59050A00D5177D /* NavigationLinkExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkExtension.swift; sourceTree = "<group>"; };
+		E2F7D3B32C59182600D5177D /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		E2F7D3B52C5918BE00D5177D /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +118,10 @@
 		E2CF41902C58401C0059A68A /* NeptisGame */ = {
 			isa = PBXGroup;
 			children = (
+				E2F7D3B02C5904F200D5177D /* Helpers */,
+				E2F7D3A02C58F58B00D5177D /* Controller */,
+				E2F7D39F2C58F58000D5177D /* View */,
+				E2F7D39E2C58F57700D5177D /* Model */,
 				E2CF41912C58401C0059A68A /* NeptisGameApp.swift */,
 				E2CF41932C58401C0059A68A /* ContentView.swift */,
 				E2CF41952C58401D0059A68A /* Assets.xcassets */,
@@ -125,6 +153,62 @@
 				E2CF41AE2C58401E0059A68A /* NeptisGameUITestsLaunchTests.swift */,
 			);
 			path = NeptisGameUITests;
+			sourceTree = "<group>";
+		};
+		E2EC48C02C5B97F300B79C16 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E2F7D3A72C58F99A00D5177D /* ButtonView.swift */,
+				E2F7D3A32C58F5CF00D5177D /* InputView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E2F7D39E2C58F57700D5177D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E2F7D3B32C59182600D5177D /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E2F7D39F2C58F58000D5177D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E2F7D3A92C58F9DE00D5177D /* Screens */,
+				E2EC48C02C5B97F300B79C16 /* Views */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E2F7D3A02C58F58B00D5177D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E2F7D3AC2C59042A00D5177D /* AuthService.swift */,
+				E2F7D3B52C5918BE00D5177D /* UserService.swift */,
+				E26D000B2C5A821B00AE0E4D /* GameController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E2F7D3A92C58F9DE00D5177D /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				E26D00072C5A44A300AE0E4D /* UserViewModel.swift */,
+				E2F7D3A52C58F6AD00D5177D /* LoginScreen.swift */,
+				E2F7D3AA2C58FF6D00D5177D /* RegisterScreen.swift */,
+				E2F7D3AE2C59047D00D5177D /* HomeScreen.swift */,
+				E26D00092C5A735600AE0E4D /* GameScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		E2F7D3B02C5904F200D5177D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E2F7D3B12C59050A00D5177D /* NavigationLinkExtension.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +341,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2F7D3AB2C58FF6D00D5177D /* RegisterScreen.swift in Sources */,
+				E26D00082C5A44A300AE0E4D /* UserViewModel.swift in Sources */,
+				E26D000A2C5A735600AE0E4D /* GameScreen.swift in Sources */,
+				E2F7D3A42C58F5CF00D5177D /* InputView.swift in Sources */,
+				E2F7D3A62C58F6AD00D5177D /* LoginScreen.swift in Sources */,
+				E2F7D3A82C58F99A00D5177D /* ButtonView.swift in Sources */,
+				E2F7D3AF2C59047D00D5177D /* HomeScreen.swift in Sources */,
 				E2CF41942C58401C0059A68A /* ContentView.swift in Sources */,
+				E2F7D3B62C5918BF00D5177D /* UserService.swift in Sources */,
 				E2CF41922C58401C0059A68A /* NeptisGameApp.swift in Sources */,
+				E2F7D3B22C59050A00D5177D /* NavigationLinkExtension.swift in Sources */,
+				E2F7D3B42C59182600D5177D /* UserModel.swift in Sources */,
+				E2F7D3AD2C59042A00D5177D /* AuthService.swift in Sources */,
+				E26D000C2C5A821B00AE0E4D /* GameController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +518,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NeptisGame/Preview Content\"";
+				DEVELOPMENT_TEAM = 2LPGZHS95N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -450,6 +547,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NeptisGame/Preview Content\"";
+				DEVELOPMENT_TEAM = 2LPGZHS95N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
