@@ -9,7 +9,20 @@ import SwiftUI
 struct HomeScreen: View {
     var currentUser: User
     @StateObject private var viewModel = UserViewModel()
-    
+    /*
+     Ukoliko dodje do errora ovdje da je UserViewModel out of scope
+     a aplikacija se builda i runna normalno, problem je do Xcode verzije.
+     
+     https://forums.developer.apple.com/forums/thread/691672
+     Ovdje se dosta njih javljalo da imaju isti problem sa novijim verzijama Xcode-a
+     Dosta njih radi u Objective-C pa su uspjeli pronaci rjesenje removanjem
+     #import fajlova ali za Swift nisam uspio naci nista
+     
+     Medjutim aplikacija radi i ako pokaze error potrebno je ocisti build folder i odraditi build ponovo
+     
+        Shift + Command + K
+        Command + B
+     */
     @State private var selectedUser: User?
     @State private var showAlert = false
     @State private var navigateToGameScreen = false
@@ -77,7 +90,7 @@ struct HomeScreen: View {
                 GameScreen(opponentUsername: selectedUser?.username ?? "", loggedInUser: currentUser)
             }
         }
-        .navigationBarBackButtonHidden(true) // Hide back button
+        .navigationBarBackButtonHidden(true) 
     }
 }
 

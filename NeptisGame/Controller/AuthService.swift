@@ -52,7 +52,7 @@ class AuthService {
                 return
             }
             
-            // Print the raw JSON response for debugging
+            
             if let jsonString = String(data: data, encoding: .utf8) {
                 print("JSON Response: \(jsonString)")
             } else {
@@ -78,7 +78,7 @@ class AuthService {
                     completion(.failure(AuthError.invalidCredentials))
                 default:
                     let responseBody = String(data: data, encoding: .utf8) ?? "No response body"
-                    completion(.failure(AuthError.unknownError("HTTP \(httpResponse.statusCode): \(responseBody)")))
+                    completion(.failure(AuthError.unknownError("\(responseBody)")))
                 }
             } catch let decodingError {
                 print("Decoding error: \(decodingError)")

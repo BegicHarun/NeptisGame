@@ -45,7 +45,7 @@ struct GameScreen: View {
                 submitGuess()
             }
             .padding()
-            .disabled(guess.isEmpty) // Disable button when input field is empty
+            .disabled(guess.isEmpty)
 
             Spacer()
         }
